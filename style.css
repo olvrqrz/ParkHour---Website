@@ -1,0 +1,112 @@
+/* body {
+    background-image: url('images/bg.jpg');
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Poppins';
+}
+
+#welcome, #since, #videos, #parkour, #contact-us, #sidenav-text {
+    font-family: 'College', sans-serif;
+    font-family: 'College Condensed', sans-serif;
+    font-family: 'College Semi-condensed', sans-serif;
+}
+
+.nav-logo > img {
+    height: 150px; 
+    width: 150px;
+    vertical-align: middle;
+    margin-top: -45px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Slider */
+.slider {
+    height: 400px;
+}
+
+.slides li {
+    height: 100%;
+}
+
+.slide-image {
+    max-height: 100%;
+}
+
+/* Carousel */
+.carousel > .carousel-item > img {
+    height: 900px;
+    width: 1700px;
+}
+  
+/* Pictures */
+/* .intro-pic > img, .since-pic > img, .info1-pic > img, .info2-pic > img{
+    margin-left: 70px;
+} */
+
+/* Paragraphs */
+.intro1, .since-text, .info1-text, .info2-text, .contact-text {
+    text-align: justify;
+}
+
+/* Meet the Team div class background */
+.meet-the-team {
+    border-radius: 10px;
+    height: auto;
+}
+
+/* Meet The Team text */
+.meet {
+    font-family: 'zing-rust-demo-base', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* label color */
+.input-field label {
+    color: grey;
+}
+
+  /* label focus color */
+.input-field input[type=email]:focus + label {
+    color: #000000;
+}
+
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 1px 0 0 #000000;
+}
+
+   /* valid color */
+.input-field input[type=email].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* Footer */
+.footer-logo > img{
+    height:150px;
+    margin-top: -45px;
+}
+
+/* Container */
+.container {
+    max-width: 100%;
+}
+
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    cursor: pointer;
+}
