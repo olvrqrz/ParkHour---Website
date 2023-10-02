@@ -46,9 +46,9 @@ p {
 }
   
 /* Pictures */
-/* .intro-pic > img, .since-pic > img, .info1-pic > img, .info2-pic > img{
-    margin-left: 70px;
-} */
+.intro-pic > img, .since-pic > img, .info1-pic > img, .info2-pic > img{
+    vertical-align: middle;
+}
 
 /* Paragraphs */
 .intro1, .since-text, .info1-text, .info2-text, .contact-text {
